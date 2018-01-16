@@ -1,4 +1,89 @@
-.header {
-    background: url("../images/Layer96.png");
-    height: 880px;
+
+
+.Creatives {  
+  font-family: Gotham;
+  font-size: 131.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -7.6px;
+  text-align: center;
+  color: #f5f5f5;
+  margin: auto;
+  margin-top: 200px;
 }
+.Power-by-PSDfreebiescom {
+  font-family: Gotham;
+  font-size: 18.6px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.5;
+  letter-spacing: 18.9px;
+  text-align: center;
+  color: #11749e;
+}
+li {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.cool-link:hover{
+  color: rgb(230, 189, 79);
+}
+.cool-link {
+  font-size: 15.6px;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.cool-link::after {
+ 
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #11749e;;
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+.nav-item{
+  text-decoration: none;
+}
+.nav-link{
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.agency {
+  margin-top: 100px;
+}
+
+
+
+
+
+
+body {
+  position: relative; 
+}
+
+#section1 {  
+  background: url("../images/Layer96.png");
+  width: 100%;
+  height: auto;
+  height: 640px;
+}
+#section2 {padding-top:50px;height:640px;color: #fff; background-color: #11749e;}
+#section3 {padding-top:50px;height:640px;color: #fff; background-color: #ff9800;}
+#section4 {padding-top:50px;height:640px;color: #fff; background-color: #00bcd4;}
+#section5 {padding-top:50px;height:640px;color: #fff; background-color: #009688;}
+#section6 {padding-top:50px;height:640px;color: #fff; background-color: #ff9800;}
+
+
+
