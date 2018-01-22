@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/main.css" rel='stylesheet' type="text/css">
+    <link href="css/navbar.css" rel='stylesheet' type="text/css">
     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -14,90 +15,158 @@
 </head>
 <body>
     
-   
-<div class="header">
-        <div class="container ">
-           <div class="row">
-              <div class="col-md-2 fixed-top navbar-brand">
-                  <a href='index.html' id="gohome"><img src='images/logogo.png'></a>
-               </div>
-              <div class="col-md-8">
-                    <ul class="nav navbar justify-content-center fixed-top">
-                            <li class="nav-item">
-                              <a class="nav-link cool-link " href="#section1">Home</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link cool-link" href="#section2">Pages</a>
-                            </li>
-                            <li class="nav-item ">
-                              <a class="nav-link cool-link" href="#section3">Feautures</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link cool-link" href="#section4">Extensions</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link cool-link" href="#section5">Tutorials</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link cool-link" href="#section6">Contact us</a>
-                            </li>
-    
-                          </ul>        
-              </div>
-              <div class="col-md-2"></div>
-</div>
-              
+    <nav class="navbar navbar-expand-lg fixed-top myNav">
+        <div class="navbar-header">
+            <button class="navbar-toggler"  data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+             
+          </div>
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logogo.png" width="42" alt="HOME">      
+          </a> 
+        <div class="collapse navbar-collapse justify-content-center" id="menu-center">
+            <ul id="top-menu" class="nav nav-margTop">
+                <li class="nav-item">
+                  <a class="active nav-link cool-link " href="#section1">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cool-link" href="#section2">Pages</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link cool-link" href="#section3">Feautures</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cool-link" href="#section4">Extensions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cool-link" href="#section5">Tutorials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cool-link" href="#section6">Contact us</a>
+                </li>    
+              </ul>        
+          
+        </div>
+      </nav>
 
-               
-   </div>     
-</div>
-        
-        <div id="section1" class="container-fluid header">
-                <div class="container creatives-height">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="Creatives text-center">
-                                    CREATIVES
-                                    <p class="Power-by-PSDfreebiescom text-center">POWER BY PSDFREE.COM</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!-- END NAVBAR -->
+
+      <section>
+      <div class="parallax1">
+          <div id="section1" class="container-fluid">
+              <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-md-12">                              
+                                  <p class="Creatives text-center">CREATIVES</p>
+                                  <p class="Power-by text-center">POWER BY SASHAS.COM</p>                               
+                          </div>
+                      </div>                     
+                  </div>                             
+              </div>
+              
+                <a href="#section2" class="scroll-down" address="true"></a> 
+                 
+      </div>
+    </section>
+    <section class="ok">
         <div id="section2" class="container-fluid">
+          <div class="W-cont mx-auto container-fluid">
+              <h1 class="W text-center">W</h1>
+          </div>
+          
           <h1 class="agency text-center"> WE ARE AN AWESAME AGENCY</h1>
+          <div class="container">
+              
           <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-2">1</div>
-            <div class="col-md-2">2</div>
-            <div class="col-md-2">3</div>
-            <div class="col-md-2">4</div>
+            <div class="col-md-2 d-none d-md-block"></div>
+            <div class="col-md-2 d-none d-md-block">
+              <div class="faCircle mx-auto text-center">
+                <i class="fa fa-user-o" aria-hidden="true"></i>
+              </div>
+                 <br>
+                <h4 class="informer ">FEAUTER ONE</h4> 
+                <p class="icon-information mx-auto">
+                    When an unknown printer took a galley of type and
+                     scrambled it to make a type specimen book. It has survived not only five
+                </p>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+                <div class="faCircle mx-auto text-center">
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                </div>
+                 <br>
+                
+                <h4 class="informer mx-auto">FEAUTER TWO</h4> 
+                <p class="icon-information mx-auto">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                   The industry's standard dummy  since 
+                </p>
+               </div>
+            <div class="col-md-2 d-none d-md-block">
+                <div class="faCircle mx-auto text-center">
+                  <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                </div>
+                <br>                
+                <h4 class="informer ">FEAUTER THREE</h4> 
+                <p class="icon-information">
+                    But also the leap into electronic typesetting,
+                     remaining essentially unchanged.
+                      It was popularised in the 1960s
+                </p>
+               </div>
+            <div class="col-md-2">
+                <div class="faCircle mx-auto text-center">
+                    <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                </div>
+                <br>
+                
+                <h4 class="informer ">FEAUTER FOUR</h4> 
+                <p class="icon-information">
+                    Contrary to popular belief,
+                     Lorem Ipsum is not text.
+                      It has roots in a piece of classical Latin literature
+                      remaining essentially 
+                      
+                </p>
+            </div>
             <div class="col-md-2"></div>
           </div>
         </div>
+        </div>
+      </section>
+
+
         <div id="section3" class="container-fluid">
           <h1>Section 3</h1>
           <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
           <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
+
+
         <div id="section4" class="container-fluid">
           <h1>Section 4 Submenu 1</h1>
           <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
           <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
+
+
         <div id="section5" class="container-fluid">
           <h1>Section 4 Submenu 2</h1>
           <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
           <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
+
+        
         <div id="section6" class="container-fluid">
           <h1>Section 4 Submenu 2</h1>
           <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
           <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
+       
               
-              
-              
+    <script src="js/navbar.js"></script>
     <script src="js/myjs.js"> </script>
+
 </body>
 </html>
