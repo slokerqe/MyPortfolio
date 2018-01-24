@@ -162,10 +162,6 @@
   color:  #ffffff;
 }
 
-
-
-
-
 .left-up{
   background:  #222222; 
   color: white;
@@ -282,7 +278,7 @@ input[type=submit] {
   cursor: pointer;
 }
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgb(255, 217, 0); 
 }
 /* Style the container/contact section */
 .contact { 
@@ -300,6 +296,15 @@ input[type=submit]:hover {
   content: "";
   display: table;
   clear: both;
+}
+footer{
+  background-color: #222222;
+height: 100px;
+}
+.footerblia{
+  text-align: center;
+  padding-top: 45px;
+  color: white;
 }
 
 
