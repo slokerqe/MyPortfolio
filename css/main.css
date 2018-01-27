@@ -8,7 +8,13 @@
   background-size: cover;
 }
 #section2 { color: #fff; 
-  background-color: #195b77;}
+  background: linear-gradient(45deg, rgb(226, 197, 29) 0%, rgba(0,0,255,1) 100%); /* w3c */}
+#gradient
+{
+  width: 100%;  
+  padding: 0px;
+  margin: 0px;
+}
 #section3 {color: #fff; 
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(6, 6, 29) 100%); /* w3c */
 }
@@ -41,10 +47,11 @@
   text-align: center;
   color: #f5f5f5;
   margin-top: 180px;
-
+  height: 120px;
 }
+
 .Power-by {
-  margin-top: -30px;
+  margin-top: -20px;
   font-family: Gotham;  
   font-weight: 700;
   font-style: normal;
@@ -112,13 +119,19 @@
 
 .agency {
   margin-top: 125px;
-  color:  #ffffff;
+  color:  rgb(255, 217, 0); 
   position: absolute;
   z-index:100;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
 .W{    
   font-weight: bold;
@@ -138,7 +151,10 @@
   line-height: 100px;
   text-align: center;
   background: rgba(0, 0, 0, 0.18);
-
+}
+.faCircle:hover{
+  background: #10191d;
+  color: rgb(255, 217, 0); 
 }
 .informer{
   text-align: center;
@@ -271,7 +287,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: rgb(0, 17, 255);
+  background-color: #11749e;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -279,6 +295,7 @@ input[type=submit] {
 }
 input[type=submit]:hover {
   background-color: rgb(255, 217, 0); 
+  color: #222222;
 }
 /* Style the container/contact section */
 .contact { 
@@ -368,7 +385,7 @@ height: 100px;
       font-size: 12px;
   }
   .Creatives {
-    font-size: 61.2px;
+    font-size: 58.2px;
     letter-spacing: -3.6px;
   }
   .Power-by{
@@ -390,3 +407,12 @@ height: 100px;
   }
 }
 
+@media all and (max-width: 320px) {
+  .Creatives{
+    font-size: 30px;
+  }
+  .Power-by{
+    font-size: 7.6px;
+    letter-spacing: 2.9px;
+  }
+}
