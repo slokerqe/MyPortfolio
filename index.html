@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/main.css" rel='stylesheet' type="text/css">
+    <link href="css/stylebutton.scss" rel='stylesheet' type="text/css">
     <link href="css/navbar.css" rel='stylesheet' type="text/css">
     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="typing.js-master/typing.css">
-
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Merriweather' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js"></script>
@@ -19,12 +20,10 @@
     <title>CREATIVIES</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top myNav">
-    
+    <nav class="navbar navbar-expand-lg fixed-top myNav">    
         <button class="navbar-toggler"  data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars" aria-hidden="true"></i>
-          </button>
-         
+          </button>        
       
       <a class="navbar-brand" href="index.html">
         <img src="images/logogo.png" width="50%" alt="HOME">      
@@ -53,9 +52,11 @@
       
     </div>
   </nav>
+ <!-- END NAVBAR -->
+ <button onclick="scroll()" class="scrollToTop" title="Go to top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+  </button>
 
-<!-- END NAVBAR -->
-   
 <div id="section1"> 
     <div class="container">
       <div class="row">
@@ -67,21 +68,19 @@
         </div>
         <div class="col-md-2"></div>
       </div>
-    </div>
-    
+    </div>    
 </div>
+
 
 <div id="section2" class="ok">
     <div id="gradient" />
 <div class="container">
-  <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8"> 
+  <div class="row">    
+    <div class="col-md-12"> 
       <div class="agency ">
-          <p class="ml2 font-weight-bold text-center"> WE ARE AN AWESOME AGENCY</p>  
+          <p class="ml2 text-center"> WE ARE AN AWESOME AGENCY</p>  
       </div>               
-        <h1 class="W text-center">W</h1> 
-    <div class="col-md-2"></div>
+        <h1 class="W text-center">W</h1>    
   </div>
 </div>
              
@@ -282,7 +281,7 @@
   </div>
           <div class="row padbot">           
               <div class="col-sm-12 col-md-6 col-lg-3 border-0">               
-                    <div class="card mx-auto" style="width: 13rem;">
+                    <div class="card mx-auto cardShadow" style="width: 13rem;">
                         <img class="card-img-top" src="images/jhon.png" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title fresh">JHON SNOW</h5>   
@@ -291,7 +290,7 @@
                       </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-3">               
-                  <div class="card mx-auto" style="width: 13rem;">
+                  <div class="card mx-auto cardShadow" style="width: 13rem;">
                       <img class="card-img-top" src="images/sansa.png" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title fresh">LADY SANSA</h5>   
@@ -300,7 +299,7 @@
                     </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">               
-                <div class="card mx-auto" style="width: 13rem;">
+                <div class="card mx-auto  cardShadow" style="width: 13rem;">
                     <img class="card-img-top" src="images/mister.png" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title fresh">MISTER STARK</h5>  
@@ -309,7 +308,7 @@
                   </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-3">               
-              <div class="card mx-auto" style="width: 13rem; height:auto">
+              <div class="card mx-auto cardShadow" style="width: 13rem; height:auto">
                   <img class="card-img-top" src="images/smith.png" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title fresh">DAVID SMITH</h5>  
@@ -352,7 +351,7 @@
             </div>
          </div> 
         </div> 
-</div>
+
   
 
                
